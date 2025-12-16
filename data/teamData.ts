@@ -37,7 +37,7 @@ export const team: TeamMember[] = [
         goodness of people.”</em>
       </p>
     `,
-    image: "/images/team/kelvin.jpg",
+    image: "/images/Team/Kelvin.jpg",
   },
 
   {
@@ -66,7 +66,7 @@ export const team: TeamMember[] = [
         acumen, communication skills, and community engagement.
       </p>
     `,
-    image: "/images/team/joshua.jpg",
+    image: "/images/Team/Joshua.jpg",
   },
 
   {
@@ -93,7 +93,7 @@ export const team: TeamMember[] = [
         community engagement, and social impact.
       </p>
     `,
-    image: "/images/team/agnes.jpg",
+    image: "/images/Team/Agnes.jpg",
   },
 
   {
@@ -178,7 +178,7 @@ export const team: TeamMember[] = [
         At MYN, Emmanuel focuses on strengthening public trust, managing organizational messaging, and supporting outreach initiatives that align with youth development, sustainability, and community impact. He is particularly interested in the intersection of policy, development, and institutional effectiveness, and is committed to contributing to solutions that drive long-term social progress.
       </p>
     `,
-    image: "/images/team/emmanuel.jpeg",
+    image: "/images/Team/Emmanuel.jpeg",
   },
    {
     id: 8,
@@ -193,6 +193,6 @@ export const team: TeamMember[] = [
         At MYN, Abdul-Rahim focuses on coordinating activities, strengthening internal systems, and supporting teams to deliver programs efficiently and on schedule. He is driven by discipline, accountability, and a strong belief in the role of organized systems in achieving sustainable youth and community development outcomes.
       </p>
     `,
-    image: "/images/team/abdul.png",
+    image: "/images/Team/Abdul.png",
   },
 ];
