@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Meridian Youth Network (MYN) Website
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The Meridian Youth Network (MYN) website is a community-focused platform built to showcase MYN’s initiatives, events, and impact. The site highlights youth-led programs, environmental clean-up exercises, advocacy efforts, and community empowerment activities.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The project prioritizes clarity, performance, and scalability while ensuring accurate storytelling and a clean, accessible user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Events Listing Page**
+  - Responsive grid layout for all events
+  - Consistent card design with optimized images
+  - Navigation to individual event detail pages
 
-## Learn More
+- **Event Detail Pages**
+  - Full-width banner images with natural image dimensions
+  - Rich narrative content for each event
+  - Image galleries that preserve original proportions
+  - SEO-friendly static pages generated at build time
 
-To learn more about Next.js, take a look at the following resources:
+- **Responsive Design**
+  - Mobile-first layout
+  - Optimized for tablet and desktop screens
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Performance Optimized**
+  - Static Site Generation (SSG) using Next.js
+  - Image optimization with the Next.js Image component
+  - Clean, predictable routing using dynamic slugs
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Images:** Next.js Image Optimization
+- **Routing:** Dynamic routes with `getStaticPaths` and `getStaticProps`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Project Structure
+
+/pages
+/events
+[slug].tsx // Event detail pages
+index.tsx // Home page
+events.tsx // Events listing page
+
+/data
+eventsData.ts // Centralized event data
+
+/public
+/images // Event and program images
+
+/components
+Reusable UI components
+
+
+---
+
+## Events Data Management
+
+All event content is managed centrally in:
+
+Each event is keyed by a **URL-safe slug**:
+
+```ts
+"cleaning-exercise-phase-2": {
+  title: "Cleaning Exercise — Phase 2",
+  date: "November 2024",
+  bannerImage: "/images/CleaningExercise2/Cleanup8.jpg",
+  content: [...],
+  images: [...]
+}
+
+
+
+## Slug Rules (Important)
+
+Slugs must be:
+
+lowercase
+
+hyphen-separated
+
+URL-safe
+
+Slugs must match exactly between:
+
+eventsData
+
+Events listing page (EventsPage)
+
+Titles are for display only; slugs control routing
+
+Image Handling Rules
+
+To maintain visual consistency and prevent cropping issues:
+
+Event Grid Images
+
+Controlled aspect ratios
+
+Uses object-cover for consistent card layouts
+
+Event Detail Images
+
+Images keep their original aspect ratios
+
+No fixed heights or forced cropping
+
+Uses w-full h-auto for natural scaling
+
+This distinction ensures clean layouts while preserving image integrity.
+
+
+
