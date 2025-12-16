@@ -7,25 +7,25 @@ const EventsPage: FC = () => {
     {
       title: "Cleanup Exercise — Tema Community 2 BBC",
       date: "March 2024",
-      image: "/Images/CleaningFigma/CleaningFigma9.jpg",
+      image: "/images/CleaningFigma/CleaningFigma9.jpg",
       slug: "cleanup-exercise-tema-community-2-bbc",
     },
     {
       title: "Girl Child Program",
       date: "August 2024",
-      image: "/Images/GirlChild/photo1.jpg",
+      image: "/images/GirlChild/photo1.jpg",
       slug: "girl-child-program",
     },
     {
       title: "Cleaning Exercise — Phase 2",
       date: "November 2024",
-      image: "/Images/CleaningExercise2/Cleanup8.jpg",
+      image: "/images/CleaningExercise2/Cleanup8.jpg",
       slug: "cleaning-exercise-phase-2",
     },
     {
       title: "Cleaning Exercise — Phase 3",
       date: "June 2025",
-      image: "/Images/CleaningExercise3/photo2.jpg",
+      image: "/images/CleaningExercise3/photo2.jpg",
       slug: "cleaning-exercise-phase-3",
     },
   ];
