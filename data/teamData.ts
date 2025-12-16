@@ -116,7 +116,7 @@ export const team: TeamMember[] = [
         to help shape a future where the youth are empowered to lead and thrive.
       </p>
     `,
-    image: "/images/team/daniel.jpg",
+    image: "/images/Team/Daniel.jpg",
   },
 
   {
@@ -145,7 +145,7 @@ export const team: TeamMember[] = [
         entrepreneurship, education, and philanthropy.
       </p>
     `,
-    image: "/images/team/gabriel.jpg",
+    image: "/images/Team/Gabriel.jpg",
   },
 
   /* -------- RESERVED SLOTS (ADD LATER) -------- */
@@ -162,7 +162,7 @@ export const team: TeamMember[] = [
         At MYN, Sadik focuses on creating meaningful content that reflects the organization’s mission, showcases community impact, and strengthens public engagement across digital platforms. He believes media is a powerful tool for advocacy, awareness, and sustainable social change.
       </p>
     `,
-    image: "/images/team/alhassan.jpeg",
+    image: "/images/Team/Alhassan.jpeg",
   },
 
   {
