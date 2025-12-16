@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import React, { FC } from "react";
+import Link from "next/link";
 
 const MissionVision: FC = () => {
   return (
@@ -37,12 +38,12 @@ const MissionVision: FC = () => {
               fostering inclusivity and inspiring positive change for a brighter shared future.
             </p>
 
-            <a
+            <Link
               href="/events"
               className="mt-6 inline-block text-[#0B3D91] font-semibold border-b-2 border-[#FFCC00] hover:text-[#FFCC00] transition-all duration-300"
             >
               Learn more
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -75,12 +76,12 @@ const MissionVision: FC = () => {
               meaningful change — fostering communities rooted in empathy, innovation, and resilience.
             </p>
 
-            <a
+            <Link
               href="/events"
               className="mt-6 inline-block text-[#0B3D91] font-semibold border-b-2 border-[#FFCC00] hover:text-[#FFCC00] transition-all duration-300"
             >
               Learn more
-            </a>
+            </Link>
           </div>
         </div>
 

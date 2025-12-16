@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function DonatePage() {
   return (
     <section className="max-w-3xl mx-auto px-6 py-20 text-center">
@@ -11,7 +13,7 @@ export default function DonatePage() {
         <div className="space-y-4">
           <p className="font-semibold text-xl">MTN Mobile Money</p>
 
-          <img
+          <Image
             src="/images/mtnlogo.jpg"
             alt="MTN Mobile Money Logo"
             className="mx-auto h-16 object-contain"
