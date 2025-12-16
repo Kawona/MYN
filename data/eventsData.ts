@@ -21,7 +21,7 @@ export const eventsData: Record<string, EventType> = {
       "Together, we cleaned. Together, we cared. And together, we made a difference."
     ],
     images: [
-      "/images/CleaningFigma/cleaningFigma6.jpg",
+      "/images/CleaningFigma/CleaningFigma6.jpg",
       "/images/CleaningFigma/CleaningFigma5.jpg",
       "/images/CleaningFigma/CleaningFigma8.jpg"
     ]

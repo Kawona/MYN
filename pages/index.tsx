@@ -12,7 +12,7 @@ const HomePage: FC = () => {
             {/* HERO SECTION */}
             <section className="relative w-full h-[100vh]">
                 <Image
-                    src="/images/cleaningFigma/CleaningFigma7.jpg"
+                    src="/images/CleaningFigma/CleaningFigma7.jpg"
                     alt="MYN Hero"
                     fill
                     priority
@@ -73,8 +73,8 @@ const HomePage: FC = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
                     {[
                         { img: "/images/LandingPage/jobseeking.webp", text: "Youth Employment" },
-                        { img: "/images/girlchild/girlchild.png", text: "Girl Child Empowerment" },
-                        { img: "/images/cleaningFigma/cleaningimpact.png", text: "Environmental Impact" },
+                        { img: "/images/GirlChild/girlchild.png", text: "Girl Child Empowerment" },
+                        { img: "/images/CleaningFigma/CleaningImpact.png", text: "Environmental Impact" },
                     ].map((item, index) => (
                         <div
                             key={index}

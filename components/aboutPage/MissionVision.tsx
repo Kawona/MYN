@@ -15,7 +15,7 @@ const MissionVision: FC = () => {
           {/* Image */}
           <div className="w-full md:w-1/2 h-64 md:h-96 overflow-hidden">
             <Image
-              src="/images/MissionVision/cleaning6.jpg"
+              src="/images/MissionVision/Cleaning6.jpg"
               alt="Mission"
               width={900}
               height={650}

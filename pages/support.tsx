@@ -41,7 +41,7 @@ const SupportPage: FC = () => {
                             border border-gray-200 group-hover:border-[#FFCC00]
                         ">
                             <Image
-                                src="/images/landingpage/donationlogo.png"
+                                src="/images/LandingPage/Donationlogo.png"
                                 alt="Donate"
                                 width={80}
                                 height={80}
@@ -65,7 +65,7 @@ const SupportPage: FC = () => {
                             border border-gray-200 group-hover:border-[#FFCC00]
                         ">
                             <Image
-                                src="/images/landingpage/Partnericon.webp"
+                                src="/images/LandingPage/Partnericon.webp"
                                 alt="Partner"
                                 width={80}
                                 height={80}
@@ -89,7 +89,7 @@ const SupportPage: FC = () => {
                             border border-gray-200 group-hover:border-[#FFCC00]
                         ">
                             <Image
-                                src="/images/landingpage/VolunteericonII.png"
+                                src="/images/LandingPage/VolunteericonII.png"
                                 alt="Volunteer"
                                 width={80}
                                 height={80}

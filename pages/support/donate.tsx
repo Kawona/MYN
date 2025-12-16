@@ -14,7 +14,7 @@ export default function DonatePage() {
           <p className="font-semibold text-xl">MTN Mobile Money</p>
 
           <Image
-            src="/images/mtnlogo.jpg"
+            src="/images/MTNlogo.jpg"
             alt="MTN Mobile Money Logo"
             className="mx-auto h-16 object-contain"
           />
