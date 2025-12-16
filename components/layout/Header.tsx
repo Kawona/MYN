@@ -32,7 +32,7 @@ const Header: FC = () => {
             <div className="flex items-center gap-3">
                 <Link href="/">
                     <Image
-                        src="/Images/logo/mynlogo.jpg"
+                        src="/images/logo/mynLogo.jpg"
                         alt="MYN Logo"
                         width={80}
                         height={80}
