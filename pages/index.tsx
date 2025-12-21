@@ -10,13 +10,13 @@ const HomePage: FC = () => {
        
 
             {/* HERO SECTION */}
-            <section className="relative w-full h-[100vh]">
+            <section className="relative w-full h-[100vh] md:h-[100vh] bg-black">
                 <Image
-                    src="/images/CleaningFigma/CleaningFigma10.jpeg"
+                    src="/images/CleaningFigma/CleaningFigma11.jpg"
                     alt="MYN Hero"
                     fill
                     priority
-                    className="object-cover"
+                    className="object-cover md:object-cover"
                 />
 
                 <div className="absolute inset-0  flex flex-col items-center justify-center text-center px-6">
