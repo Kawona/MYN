@@ -71,7 +71,7 @@ const EventsPage: FC = () => {
               {/* CTA */}
               <div className="
                 absolute bottom-4 left-1/2 -translate-x-1/2
-                bg-white text-[#0B3D91] text-sm font-semibold
+                bg-[#FFCC00] text-white text-sm font-semibold
                 px-5 py-2 rounded-full shadow-md
                 md:opacity-0 md:group-hover:opacity-100
                 transition
