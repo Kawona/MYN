@@ -45,24 +45,44 @@ const EventsPage: FC = () => {
             key={index}
             href={`/events/${event.slug}`}
             className="
-              block bg-white rounded-3xl shadow-md overflow-hidden 
-              hover:shadow-xl hover:-translate-y-1 transition-all duration-300
-              border border-gray-200
+              group block bg-white rounded-3xl shadow-md overflow-hidden 
+              border border-gray-200 cursor-pointer
+              active:scale-[0.98]
+              transition-all duration-300
             "
           >
             {/* IMAGE */}
             <div className="relative w-full aspect-[2/3] overflow-hidden rounded-xl">
+
               <Image
                 src={event.image}
                 alt={event.title}
                 fill
-                className="object-cover object-center transition-transform duration-700 hover:scale-105"
+                className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
               />
+
+              {/* Overlay (desktop hover only) */}
+              <div className="
+                absolute inset-0 bg-black/0 
+                md:group-hover:bg-black/40 
+                transition duration-300
+              " />
+
+              {/* CTA */}
+              <div className="
+                absolute bottom-4 left-1/2 -translate-x-1/2
+                bg-white text-[#0B3D91] text-sm font-semibold
+                px-5 py-2 rounded-full shadow-md
+                md:opacity-0 md:group-hover:opacity-100
+                transition
+              ">
+                View Event →
+              </div>
             </div>
 
             {/* CONTENT */}
             <div className="p-6 text-center">
-              <h3 className="text-xl md:text-2xl font-semibold text-[#0B3D91] mb-1">
+              <h3 className="text-xl md:text-2xl font-semibold text-[#0B3D91] mb-1 underline-offset-4 group-hover:underline">
                 {event.title}
               </h3>
               <p className="text-gray-600 font-medium">{event.date}</p>

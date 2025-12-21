@@ -49,20 +49,20 @@ const TeamLeaders: React.FC = () => {
             {/* Image Section */}
             <div className="md:w-1/3 flex justify-center">
               <div
-                className="
-                  w-60 h-60 md:w-72 md:h-72 rounded-2xl overflow-hidden 
-                  shadow-xl transform transition-all duration-300 
-                  hover:scale-105
-                "
-              >
-                <Image
-                  src={leader.image}
-                  alt={leader.name}
-                  width={350}
-                  height={350}
-                  className="object-cover w-full h-full"
-                />
-              </div>
+              className="
+                w-60 h-60 md:w-72 md:h-72 rounded-2xl overflow-hidden 
+                shadow-xl transform transition-all duration-300 
+                hover:scale-105
+              "
+            >
+              <Image
+                src={leader.image}
+                alt={leader.name}
+                width={350}
+                height={350}
+                className="object-cover object-top w-full h-full"
+              />
+            </div>
             </div>
           </div>
         ))}

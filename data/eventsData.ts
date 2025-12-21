@@ -7,9 +7,8 @@ export interface EventType {
 }
 
 export const eventsData: Record<string, EventType> = {
-  // -----------------------------------------------------
+  
   // 1. CLEANUP EXERCISE — TEMA COMMUNITY 2
-  // -----------------------------------------------------
   "cleanup-exercise-tema-community-2-bbc": {
     title: "Cleanup Exercise — Tema Community 2 BBC",
     date: "March 2024",
@@ -27,9 +26,8 @@ export const eventsData: Record<string, EventType> = {
     ]
   },
 
-  // -----------------------------------------------------
+
   // 2. GIRL CHILD PROGRAM — PHASE 1
-  // -----------------------------------------------------
   "girl-child-program": {
     title: "Girl Child Program",
     date: "August 2024",
@@ -46,9 +44,8 @@ export const eventsData: Record<string, EventType> = {
     ]
   },
 
-  // -----------------------------------------------------
+
   // 3. CLEANING EXERCISE — PHASE 2
-  // -----------------------------------------------------
   "cleaning-exercise-phase-2": {
     title: "Cleaning — Phase 2",
     date: "November 2024",
@@ -65,9 +62,7 @@ export const eventsData: Record<string, EventType> = {
     ]
   },
 
-  // -----------------------------------------------------
   // 4. CLEANING EXERCISE — PHASE 3
-  // -----------------------------------------------------
   "cleaning-exercise-phase-3": {
     title: "Cleaning — Phase 3",
     date: "June 2025",

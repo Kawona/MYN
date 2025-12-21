@@ -147,9 +147,6 @@ export const team: TeamMember[] = [
     `,
     image: "/images/Team/Gabriel.jpg",
   },
-
-  /* -------- RESERVED SLOTS (ADD LATER) -------- */
-
   {
     id: 6,
     name: "Sadik Alhassan",

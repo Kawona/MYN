@@ -12,7 +12,7 @@ const HomePage: FC = () => {
             {/* HERO SECTION */}
             <section className="relative w-full h-[100vh]">
                 <Image
-                    src="/images/CleaningFigma/CleaningFigma7.jpg"
+                    src="/images/CleaningFigma/CleaningFigma10.jpeg"
                     alt="MYN Hero"
                     fill
                     priority
