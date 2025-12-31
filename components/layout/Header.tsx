@@ -21,7 +21,7 @@ const Header: FC = () => {
         <header
             className="
                 sticky top-0 z-50 w-full 
-                bg-[#0B3D91] 
+                bg-white/50
                 shadow-lg 
                 flex items-center justify-between
                 px-4 md:px-8
@@ -52,7 +52,7 @@ const Header: FC = () => {
                             <Link
                                 href={link.href}
                                 className={`
-                                    text-white text-lg font-semibold transition-all duration-200
+                                    text-gray-700 text-lg font-semibold transition-all duration-200
                                     hover:text-[#FFCC00]
                                     ${pathname === link.href ? "text-[#FFCC00]" : ""}
                                 `}

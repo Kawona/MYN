@@ -7,12 +7,12 @@ import { FC } from "react";
 
 const Footer: FC = () => {
     return (
-        <footer className="bg-[#0B3D91] text-white py-10 mt-16">
+        <footer className="bg-white/50 text-gray/800 py-10 mt-16">
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
 
                 {/* LEFT — Logo & Description */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">
-                    <h2 className="text-xl font-extrabold tracking-wide text-[#FFCC00]">
+                    <h2 className="text-xl font-extrabold tracking-wide text-gray-700">
                         Meridian Youth Network
                     </h2>
 
@@ -38,7 +38,7 @@ const Footer: FC = () => {
 
                 {/* CENTER — Quick Links */}
                 <div className="flex flex-col items-center md:items-start">
-                    <h3 className="text-lg font-semibold text-[#FFCC00] mb-3">
+                    <h3 className="text-lg font-semibold text-gray-700 mb-3">
                         Quick Links
                     </h3>
 
@@ -64,11 +64,11 @@ const Footer: FC = () => {
 
                 {/* RIGHT — Social Media */}
                 <div className="flex flex-col items-center md:items-end">
-                    <h3 className="text-lg font-semibold text-[#FFCC00] mb-3">
+                    <h3 className="text-lg font-semibold text-gray-700 mb-3">
                         Follow Us
                     </h3>
 
-                    <div className="flex gap-5 text-white">
+                    <div className="flex gap-5 text-gray-700">
                         <a
                             href="https://www.facebook.com/story.php?story_fbid=1139063421567434&id=100063913599154"
                             target="_blank"
